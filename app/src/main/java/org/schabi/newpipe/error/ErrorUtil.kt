@@ -40,7 +40,7 @@ class ErrorUtil {
          */
         @JvmStatic
         fun openActivity(context: Context, errorInfo: ErrorInfo) {
-            context.startActivity(getErrorActivityIntent(context, errorInfo))
+//            context.startActivity(getErrorActivityIntent(context, errorInfo))
         }
 
         /**
